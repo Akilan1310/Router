@@ -1,6 +1,6 @@
 import React from 'react';
 import  "./Out.css";
-import {Outlet,Link} from "react-router-dom"
+import { Outlet,Link } from "react-router-dom"
 
 export default function Out() {
   return (
@@ -22,9 +22,29 @@ export default function Out() {
                     Contact
                     </Link>
                 </li>
+                <li>
+                    <Link className="nav-link" to="/Counter">
+                  Counter
+                    </Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Effect">
+                  Effect
+                    </Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Reducer">
+                  Reducer
+                    </Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Callback">
+                  Callback
+                    </Link>
+                </li>
             </ul>
         </nav>
-        <Outlet/>
+      <Outlet/>
     </div>
   )
 }
