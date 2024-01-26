@@ -21,7 +21,7 @@ export default function App() {
       <Route path="counter" element={<Counter/>}/>
       <Route path="Effect" element={<Effect/>}/>
       <Route path="Reducer" element={<Reducer/>}/>
-      <Route path="Callback" element={<Callback></Callback>}/>
+      <Route path="Callback" element={<Callback/>}/>
     
     </Route>
     </Routes>
